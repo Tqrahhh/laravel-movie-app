@@ -1,4 +1,4 @@
-@extends('_layouts.main') 
+@extends('_layouts.main')
 
 @section('content')
 <main>
@@ -6,7 +6,7 @@
         <!-- Breadcrumb Start -->
         <div class="mb-6 flex flex-col gap-3 sm:flex-row sm:items-center sm:justify-between">
             <h2 class="text-title-md2 font-bold text-black dark:text-white">
-                Movie data
+                Tables
             </h2>
 
             <nav>
@@ -44,7 +44,7 @@
                     <div class="col-span-3 flex items-center">
                         <div class="flex flex-col gap-4 sm:flex-row sm:items-center">
                             <div class="w-12 rounded-md">
-                                <img src="src/images/movie/movie-01.jpg" alt="Product" />
+                                <img src="src/images/movie/{{$movie['poster'] }}" alt="Product" />
                             </div>
                             <p class="text-sm font-medium text-black dark:text-white">
                                 {{$movie['title'] }}
@@ -53,12 +53,12 @@
                     </div>
                     <div class="col-span-1 items-center sm:flex">
                         <p class="text-sm font-medium text-black dark:text-white">
-                            Shounen
+                            {{$movie['genre'] }}
                         </p>
                     </div>
                     <div class="col-span-3 flex items-center">
                         <p class="text-sm font-medium text-black dark:text-white">
-                            Jojo's Bizarre Adventure is a story about the Joestar family, who are possessed with intense psychic strength.
+                            {{$movie['deskription'] }}
                         </p>
                     </div>
                     <div class="col-span-1 flex items-center">

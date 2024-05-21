@@ -67,7 +67,36 @@
                         Corrupt politicians, frenzied nationalists and other seditious forces continue to jeopardize the thin veneer of peace.
                     </p>
                 </div>
-                
+            </div>
+
+            <div class="rounded-sm border border-stroke bg-white shadow-default dark:border-strokedark dark:bg-boxdark">
+                <a href="#" class="block px-4 pt-4">
+                    <img class="object-cover h-60 w-96" src="src/images/movie/movie-05.jpg" alt="Cards" />
+                </a>
+
+                <div class="p-6 overflow-hidden">
+                    <h4 class="mb-3 text-xl font-semibold text-black dark:text-white">
+                        <a href="#">Kimetsu no Yaiba</a>
+                    </h4>
+                    <p class="font-medium">
+                        The figure of a teenage boy named Tanjiro Kamado who becomes a demon slayer, aka demon killer, after experiencing a traumatic event in the past.
+                    </p>
+                </div>
+            </div>
+
+            <div class="rounded-sm border border-stroke bg-white shadow-default dark:border-strokedark dark:bg-boxdark">
+                <a href="#" class="block px-4 pt-4">
+                    <img class="object-cover h-60 w-96" src="src/images/movie/movie-06.jpg" alt="Cards" />
+                </a>
+
+                <div class="p-6 overflow-hidden">
+                    <h4 class="mb-3 text-xl font-semibold text-black dark:text-white">
+                        <a href="#">Tensei Shitara Slime Dattaken</a>
+                    </h4>
+                    <p class="font-medium">
+                        a male office worker named Satoru Mikami who was reincarnated into a slime after being killed by a criminal.
+                    </p>
+                </div>
             </div>
         </div>
     </div>

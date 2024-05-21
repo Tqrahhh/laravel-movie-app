@@ -1,5 +1,7 @@
 <?php
 
+use App\Http\Controllers\ReviewController;
+use App\Http\Controllers\GenreController;
 use App\Http\Controllers\MovieController;
 use Illuminate\Support\Facades\Route;
 
@@ -14,10 +16,6 @@ Route::get('/products', function () {
     return view('product');
 });
 
-Route::get('/genres', function () {
-    return view('genre');
-});
+Route::get('/genres', [GenreController::class, 'genre']);
 
-Route::get('/reviews', function () {
-    return view('review');
-});
+Route::get('/reviews', [ReviewController::class, 'review']);
