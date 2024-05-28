@@ -36,5 +36,21 @@ class ReviewSeeder extends Seeder
             'rating' => '7/10',
             'date' => '03-03-2024',
         ]);
+
+        Movie::create([
+            'id' => 4,
+            'title' => 'Kimetsu no Yaiba',
+            'user' => 'user 4',
+            'rating' => '10/10',
+            'date' => '04-04-2024',
+        ]);
+
+        Movie::create([
+            'id' => 5,
+            'title' => 'Tensei Shitara Slime Dattaken',
+            'user' => 'user 5',
+            'rating' => '10/10',
+            'date' => '05-05-2024',
+        ]);
     }
 }

@@ -36,5 +36,21 @@ class MovieSeeder extends Seeder
             'poster' => 'movie-03.jpg',
             'synopsis' => 'Haruka Sakura wants nothing to do with weaklings—hes only interested in the strongest of the strong.',
         ]);
+
+        Movie::create([
+            'id' => 4,
+            'title' => 'Kimetsu no Yaiba',
+            'genre_id' => '4',
+            'poster' => 'movie-04.jpg',
+            'synopsis' => 'The figure of a teenage boy named Tanjiro Kamado who becomes a demon slayer, aka demon killer, after experiencing a traumatic event in the past.',
+        ]);
+
+        Movie::create([
+            'id' => 5,
+            'title' => 'Tensei Shitara Slime Dattaken',
+            'genre_id' => '5',
+            'poster' => 'movie-05.jpg',
+            'synopsis' => 'a male office worker named Satoru Mikami who was reincarnated into a slime after being killed by a criminal.',
+        ]);
     }
 }
