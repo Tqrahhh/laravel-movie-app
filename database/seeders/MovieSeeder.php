@@ -16,7 +16,7 @@ class MovieSeeder extends Seeder
         Movie::create([
             'id' => 1,
             'title' => 'Jojo Bizarre Adventure',
-            'genre_id' => '1',
+            'genre_id' => 1,
             'poster' => 'movie-01.jpg',
             'synopsis' => 'Jojos Bizarre Adventure is a story about the Joestar family, who are possessed with intense psychic strength.',
         ]);
@@ -24,7 +24,7 @@ class MovieSeeder extends Seeder
         Movie::create([
             'id' => 2,
             'title' => 'Noragami',
-            'genre_id' => '2',
+            'genre_id' => 2,
             'poster' => 'movie-02.jpg',
             'synopsis' => 'Noragami is an anime series that follows a poor deity named Yato, who desires to become a famous god.',
         ]);
@@ -32,7 +32,7 @@ class MovieSeeder extends Seeder
         Movie::create([
             'id' => 3,
             'title' => 'Wind Breaker',
-            'genre_id' => '3',
+            'genre_id' => 3,
             'poster' => 'movie-03.jpg',
             'synopsis' => 'Haruka Sakura wants nothing to do with weaklings—hes only interested in the strongest of the strong.',
         ]);
@@ -40,7 +40,7 @@ class MovieSeeder extends Seeder
         Movie::create([
             'id' => 4,
             'title' => 'Kimetsu no Yaiba',
-            'genre_id' => '4',
+            'genre_id' => 4,
             'poster' => 'movie-04.jpg',
             'synopsis' => 'The figure of a teenage boy named Tanjiro Kamado who becomes a demon slayer, aka demon killer, after experiencing a traumatic event in the past.',
         ]);
@@ -48,7 +48,7 @@ class MovieSeeder extends Seeder
         Movie::create([
             'id' => 5,
             'title' => 'Tensei Shitara Slime Dattaken',
-            'genre_id' => '5',
+            'genre_id' => 5,
             'poster' => 'movie-05.jpg',
             'synopsis' => 'a male office worker named Satoru Mikami who was reincarnated into a slime after being killed by a criminal.',
         ]);

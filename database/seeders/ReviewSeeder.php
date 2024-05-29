@@ -13,41 +13,41 @@ class ReviewSeeder extends Seeder
      */
     public function run(): void
     {
-        Movie::create([
+        Review::create([
             'id' => 1,
-            'title' => 'Jojo Bizarre Adventure',
+            'movie_id' => 1,
             'user' => 'user 1',
             'rating' => '9/10',
             'date' => '01-01-2024',
         ]);
     
-        Movie::create([
+        Review::create([
             'id' => 2,
-            'title' => 'Noragami',
+            'movie_id' => 2,
             'user' => 'user 2',
             'rating' => '8/10',
             'date' => '02-02-2024',
         ]);
     
-        Movie::create([
+        Review::create([
             'id' => 3,
-            'title' => 'Wind Breaker',
+            'movie_id' => 3,
             'user' => 'user 3',
             'rating' => '7/10',
             'date' => '03-03-2024',
         ]);
 
-        Movie::create([
+        Review::create([
             'id' => 4,
-            'title' => 'Kimetsu no Yaiba',
+            'movie_id' => 4,
             'user' => 'user 4',
             'rating' => '10/10',
             'date' => '04-04-2024',
         ]);
 
-        Movie::create([
+        Review::create([
             'id' => 5,
-            'title' => 'Tensei Shitara Slime Dattaken',
+            'movie_id' => 5,
             'user' => 'user 5',
             'rating' => '10/10',
             'date' => '05-05-2024',
