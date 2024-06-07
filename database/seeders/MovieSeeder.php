@@ -41,7 +41,7 @@ class MovieSeeder extends Seeder
             'id' => 4,
             'title' => 'Kimetsu no Yaiba',
             'genre_id' => 4,
-            'poster' => 'movie-04.jpg',
+            'poster' => 'movie-05.jpg',
             'synopsis' => 'The figure of a teenage boy named Tanjiro Kamado who becomes a demon slayer, aka demon killer, after experiencing a traumatic event in the past.',
         ]);
 
@@ -49,7 +49,7 @@ class MovieSeeder extends Seeder
             'id' => 5,
             'title' => 'Tensei Shitara Slime Dattaken',
             'genre_id' => 5,
-            'poster' => 'movie-05.jpg',
+            'poster' => 'movie-06.jpg',
             'synopsis' => 'a male office worker named Satoru Mikami who was reincarnated into a slime after being killed by a criminal.',
         ]);
     }

@@ -7,16 +7,16 @@ use Illuminate\Http\Request;
 
 class ReviewController extends Controller
 {
-    public function review()
+    public function index()
 {
     $reviews = Review::all();
 
-    return view('review', compact('reviews'));
+    return view('reviews.review', compact('reviews'));
 }
 
 public function create()
 {
-    return view('createreviews', );
+    return view('reviews.create', );
 }
 
 public function store(Request $request)
