@@ -5,12 +5,12 @@
     <div class="mx-auto max-w-screen-2xl p-4 md:p-6 2xl:p-10">
         <!-- Breadcrumb Start -->
         <div class="mb-6 flex flex-col gap-3 sm:flex-row sm:items-center sm:justify-between">
-            <h2 class="text-title-md2 font-bold text-black dark:text-white">
+            <h2 class="text-title-md2 font-bold text-black">
                 Genre
             </h2>
 
             <nav>
-                <a href="genres/create" class="text-white bg-gradient-to-r from-blue-500 via-blue-600 to-blue-700 hover:bg-gradient-to-br focus:ring-4 focus:outline-none focus:ring-blue-300 dark:focus:ring-blue-800 font-medium rounded-lg text-sm px-5 py-2.5 text-center me-2 mb-2">
+                <a href="genres/create" class="text-white bg-gradient-to-r from-blue-500 via-blue-600 to-blue-700 hover:bg-gradient-to-br focus:ring-4 focus:outline-none focus:ring-blue-300 font-medium rounded-lg text-sm px-5 py-2.5 text-center me-2 mb-2">
                     Create
                 </a>
             </nav>
@@ -18,7 +18,7 @@
         <!-- Breadcrumb End -->
         @if (session('success'))
             <div
-                class="flex w-full border-l-6 border-[#34D399] bg-[#34D399] bg-opacity-[15%] my-4 px-7 py-6 shadow-md dark:bg-[#1B1B24] dark:bg-opacity-30"
+                class="flex w-full border-l-6 border-[#34D399] bg-[#34D399] bg-opacity-[15%] my-4 px-7 py-6 shadow-md"
             >
                 <div
                 class="mr-5 flex h-9 w-full max-w-[36px] items-center justify-center rounded-lg bg-[#34D399]"
@@ -39,7 +39,7 @@
                 </div>
                 <div class="w-full">
                     <h5
-                        class="text-lg font-bold text-black dark:text-[#34D399]"
+                        class="text-lg font-bold text-black"
                     >
                         {{ session('success') }}
                     </h5>
@@ -50,8 +50,8 @@
         <!-- ====== Table Section Start -->
         <div class="flex flex-col gap-10">
             <!-- ====== Table Two Start -->
-            <div class="rounded-sm border border-stroke bg-white shadow-default dark:border-strokedark dark:bg-boxdark">
-                <div class="grid grid-cols-6 border-t border-stroke px-4 py-4.5 dark:border-strokedark sm:grid-cols-8 md:px-6 2xl:px-7.5">
+            <div class="rounded-sm border border-stroke bg-white shadow-default">
+                <div class="grid grid-cols-6 border-t border-stroke px-4 py-4.5 sm:grid-cols-8 md:px-6 2xl:px-7.5">
                     <div class="col-span-1 flex items-center">
                         <p class="font-medium">ID</p>
                     </div>
@@ -67,19 +67,19 @@
                 </div>
 
                 @foreach ($genres as $genre)
-                <div class="grid grid-cols-6 border-t border-stroke px-4 py-4.5 dark:border-strokedark sm:grid-cols-8 md:px-6 2xl:px-7.5">
+                <div class="grid grid-cols-6 border-t border-stroke px-4 py-4.5 sm:grid-cols-8 md:px-6 2xl:px-7.5">
                     <div class="col-span-1 flex items-center">
-                        <p class="text-sm font-medium text-black dark:text-white">
+                        <p class="text-sm font-medium text-black">
                             {{$genre->id }}
                         </p>
                     </div>
                     <div class="col-span-2 flex items-center">
-                        <p class="text-sm font-medium text-black dark:text-white">
+                        <p class="text-sm font-medium text-black">
                             {{$genre->name }}
                         </p>
                     </div>
                     <div class="col-span-4 flex items-center">
-                        <p class="text-sm font-medium text-black dark:text-white">
+                        <p class="text-sm font-medium text-black">
                             {{$genre->deskription }}
                         </p>
                     </div>
